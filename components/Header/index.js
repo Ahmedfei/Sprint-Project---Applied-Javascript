@@ -18,5 +18,16 @@ const headerContent = [
         temp: "98°"
     }
 ];
+function myFunction(date,title,temp){
+    
+}
+const header=document.createElement("div");
+document.querySelector("header");
+
+
+
+
+
+
 
 
