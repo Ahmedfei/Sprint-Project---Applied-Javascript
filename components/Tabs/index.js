@@ -17,7 +17,4 @@
 //     "node.js"
 // ]
 
-axios.get('https://gabitimes.herokuapp.com/topics')
-  .then(response => {
-    console.log(data);
-  });
+

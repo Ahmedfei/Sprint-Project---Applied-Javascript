@@ -10,19 +10,46 @@
 // And add it to the DOM in the .headerContainer component
 
 // Use this object for the component you created.
-const newDate = new Date();
-const headerContent = [
-    {
-        date: newDate.toDateString(),
-        title: "Gabi Times",
-        temp: "98°"
-    }
-];
-function myFunction(date,title,temp){
+
+function myHeader(date,title,temp){
+    // creating elements
+    let mainDiv=document.createElement("div")
+    let mainDate=document.createElement("span")
+    let mainTitle=document.createElement("h1")
+    let mainTemp=document.createElement("span")
+    //appending
     
-}
-const header=document.createElement("div");
-document.querySelector("header");
+
+    mainDiv.appendChild(mainDate)
+    mainDiv.appendChild(mainTitle)
+    mainDiv.appendChild(mainTemp)
+    
+    mainDate.textContent=date
+    mainTitle.textContent=title
+    mainTemp.textContent=temp
+
+    //adding class
+    mainDiv.classList.add(".headercontainer")
+    
+
+return mainDiv
+
+    }
+
+// function invocation
+console.log(myHeader("date","Gabi Times","98°")
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
